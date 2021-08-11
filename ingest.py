@@ -24,6 +24,8 @@ class Ingest:
 
         customer_df.orderBy("Salary").show()
 
+        customer_df.select("age").show()
+
 
 
 
